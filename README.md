@@ -4,13 +4,13 @@ https://simant-gautam-portfolio.vercel.app/
 
 ## Sections
 
-✔️ Summary
-✔️ About me
-✔️ Skills
-✔️ Education
-✔️ Experience
-✔️ Projects
-✔️ Contact me
+- Summary
+- About me
+- Skills
+- Education
+- Experience
+- Projects
+- Contact me
 
 ## Tech Stacks
 
