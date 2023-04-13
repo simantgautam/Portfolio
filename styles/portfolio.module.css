@@ -1,14 +1,19 @@
 .tab__btns {
-  background: linear-gradient(to right,  rgb(50,55,68,0.8), rgba(1, 237, 255, 0.4));
+  background: linear-gradient(
+    to right,
+    rgb(50, 55, 68, 0.8),
+    rgba(1, 237, 255, 0.4)
+  );
   background-clip: padding-box;
   padding: 40px;
   border-radius: 10%;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 10px; */
   width: 500px;
-  height: 600px;
+  /* height: 630px; */
 }
-.tab__btns img{
+.tab__btns img {
   border-radius: 5%;
 }
 .service__item {
@@ -29,16 +34,16 @@
   margin-top: 5px;
 }
 
-.stack__container
-{
-display: flex;
-margin-top: 15px;
-gap: 10px;
+.stack__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 10px;
 }
 .nav__icon {
   display: inline-block;
   width: 100%;
-  height:100%;
+  height: 100%;
   color: #fff;
   font-size: 44px;
   text-align: center;
@@ -46,7 +51,7 @@ gap: 10px;
   background: none;
   transition: transform 2s ease;
 }
-.nav__anc{
+.nav__anc {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +66,7 @@ gap: 10px;
 .nav__anc:hover {
   transform: translateY(-10px);
 }
-.git__dep{
+.git__dep {
   display: flex;
   gap: 50px;
   margin-top: 20px;
@@ -71,17 +76,20 @@ gap: 10px;
     text-align: left !important;
     margin-top: -20px !important;
     margin-bottom: 30px;
+    width: auto;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){
-  
-  .tab__btns{
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tab__btns {
     width: 350px;
-    height: 650px;
+    /* height: 650px; */
   }
-  .stack__container{
+  .tab__btns > h5 {
+    font-size: 15px;
+  }
+  .stack__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }

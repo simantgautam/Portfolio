@@ -94,6 +94,13 @@
 /* ========== make it responsive ========= */
 
 @media only screen and (max-width: 992px) {
+  .header {
+    line-height: 60px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+  }
   .navigation {
     position: fixed;
     top: 0;
@@ -136,23 +143,24 @@
   .header {
     line-height: 60px;
     border-bottom: 1px solid black;
+    background-color: black;
     width: 100%;
+    padding: 10px;
   }
 
   .logo h1 {
     font-size: 3rem;
-    margin: 10px;
-    background-color: transparent;
+    background-color: black;
   }
 
   .logo h1 span {
     font-size: 2rem;
     color: rgb(1, 237, 255);
-    background-color: transparent;
+    background-color: black;
   }
 
   .nav__wrapper {
-    background-color: transparent;
+    background-color: black;
   }
 }
 @keyframes slideRight {

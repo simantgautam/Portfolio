@@ -198,6 +198,14 @@
     left: 15%;
   }
 
+  .hero__content {
+    padding-left: 100px;
+  }
+
+  .nav__anc {
+    margin: auto;
+  }
+
   .hero__experience {
     right: 20%;
   }
