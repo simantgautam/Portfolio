@@ -210,8 +210,8 @@
     right: 20%;
   }
   .hero__content {
-    padding-top: 0;
-    width: 110%;
+    /* padding-top: 0; */
+    /* width: 110%; */
     margin: auto;
   }
 }

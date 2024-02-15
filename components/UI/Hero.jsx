@@ -107,8 +107,9 @@ const Hero = () => {
               </motion.a>
               <motion.a
                 className={classes.nav__anc}
-                href="https://drive.google.com/file/d/1JcJkpMXZvKBSfgATx1aU7-0kB1UYNIK1/view?usp=sharing"
+                href="https://drive.google.com/file/d/15A2Fz9zRUjP91T1NxFu0DmD6HvYcwvBV/view?usp=sharing"
                 whileHover={{ scale: 1.2 }}
+                target="_blank"
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <span
